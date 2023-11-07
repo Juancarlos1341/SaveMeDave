@@ -1,0 +1,39 @@
+:root{
+    --branco: #EBEBEB;
+    --preto: #010100;
+    --azul-fundo: #05095F;
+    --verde-fundo:#127d02;
+    --verde-claro:#50cf3d;
+    --vermelho-area:#ffb9a5;
+    --amarelo-area:#f8ffb4;
+    --verde-area:#b2ffc4;
+    --cinza: #f2f2f2b2;
+
+
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Caslon Display', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-primaria-branca {
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--branco);
+}
+
+.font-segundaria-branca{
+    font-size: 1rem;
+    padding: 1rem;
+    color: var(--branco);
+}
+
+.font-desligado {
+    color: var(--branco);
+    font-size: 5rem;
+    margin: 2rem;
+}

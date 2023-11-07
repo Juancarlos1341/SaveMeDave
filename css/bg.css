@@ -1,0 +1,39 @@
+.back-bloqueio{
+    background: var(--azul-fundo);
+    background: radial-gradient(circle, var(--azul-fundo) 53%, var(--verde-fundo) 100%);
+    text-align: center;
+}
+
+.bg-branco {
+    background-color: var(--branco);
+    width: 5vw;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    border: 5px solid var(--verde-fundo);
+    box-shadow: 5px 5px 5px 5px var(--branco);
+}
+
+.bg-branco-animado {
+    animation: fadein 5s infinite;
+    background-color: var(--branco);
+    width: 10vw;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 3.5rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    border: 5px solid var(--verde-fundo);
+    box-shadow: 5px 5px 5px 5px var(--branco);
+}
+
+.back-desligado {
+    background: var(--preto);
+    text-align: center;
+    padding: 16rem;
+}
+
+.bg-area {
+    background-image: linear-gradient(to right, #370e05, #6f340d, #9b6800, #b1a600, #a8eb12);
+}
